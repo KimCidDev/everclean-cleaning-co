@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services | Ever Clean Services — Calgary, Alberta</title>
+  <meta name="description" content="Ever Clean Services — professional cleaning for homes, offices and Airbnb in Calgary, Alberta.">
+  <meta name="theme-color" content="#0b2a5b">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="announce">Professional cleaning · <a href="index.html#book">Calgary, Alberta</a></div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <div class="header__left">
+        <button class="icon-btn menu-toggle" type="button" data-action="menu-open" aria-label="Open menu" data-icon="menu"></button>
+        <nav class="nav-desktop" aria-label="Main">
+          <a href="index.html#services">Services</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#photos">Photos</a>
+        </nav>
+      </div>
+      <a class="brand" href="index.html" aria-label="Ever Clean Services — home">
+        <img src="assets/img/logo.jpg" alt="" width="48" height="48">
+        <span class="brand__text"><span class="brand__name">EVER<span>CLEAN</span></span><span class="brand__sub">SERVICES</span></span>
+      </a>
+      <div class="header__right">
+        <button class="icon-btn" type="button" data-action="search-open" aria-label="Search services" data-icon="search"></button>
+        <a class="icon-btn" href="https://www.instagram.com/buter_scleaning/" target="_blank" rel="noopener" aria-label="Instagram @buter_scleaning" data-icon="instagram"></a>
+        <a class="btn btn--primary header__book" href="index.html#book">Book now</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="index.html">Home</a> / <a href="index.html#services">Services</a> / <span id="crumb-current">Service</span>
+      </nav>
+      <section class="detail" id="service-detail"><!-- filled by js/main.js --></section>
+    </div>
+
+    <section class="section section--tint" aria-labelledby="related-title">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Ever Clean Services</span>
+          <h2 id="related-title">You may also need</h2>
+        </div>
+        <div class="grid" id="related-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="assets/img/logo.jpg" alt="" width="54" height="54" loading="lazy">
+            <div><strong style="color:#fff">Ever Clean Services</strong><br>Spotless results, every time</div>
+          </div>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="service.html?s=homes">Homes</a></li>
+            <li><a href="service.html?s=offices">Offices</a></li>
+            <li><a href="service.html?s=airbnb">Airbnb</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="https://www.instagram.com/buter_scleaning/" target="_blank" rel="noopener">Instagram @buter_scleaning</a></li>
+            <li>Calgary, Alberta</li>
+            <li><a href="index.html#book">Book your cleaning today</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">© <span data-year></span> Ever Clean Services · Calgary, Alberta</div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
